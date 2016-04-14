@@ -13,6 +13,7 @@
 		2054FFD01CBFD8130015A967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2054FFCE1CBFD8130015A967 /* Main.storyboard */; };
 		2054FFD21CBFD8130015A967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2054FFD11CBFD8130015A967 /* Assets.xcassets */; };
 		2054FFD51CBFD8130015A967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2054FFD31CBFD8130015A967 /* LaunchScreen.storyboard */; };
+		2054FFDE1CBFD89F0015A967 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2054FFDD1CBFD89F0015A967 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2054FFD11CBFD8130015A967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2054FFD41CBFD8130015A967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2054FFD61CBFD8130015A967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2054FFDC1CBFD89F0015A967 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		2054FFDD1CBFD89F0015A967 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		2054FFC41CBFD8130015A967 /* meituan */ = {
 			isa = PBXGroup;
 			children = (
+				2054FFDC1CBFD89F0015A967 /* Dog.h */,
+				2054FFDD1CBFD89F0015A967 /* Dog.m */,
 				2054FFC81CBFD8130015A967 /* AppDelegate.h */,
 				2054FFC91CBFD8130015A967 /* AppDelegate.m */,
 				2054FFCB1CBFD8130015A967 /* ViewController.h */,
@@ -152,6 +157,7 @@
 			files = (
 				2054FFCD1CBFD8130015A967 /* ViewController.m in Sources */,
 				2054FFCA1CBFD8130015A967 /* AppDelegate.m in Sources */,
+				2054FFDE1CBFD89F0015A967 /* Dog.m in Sources */,
 				2054FFC71CBFD8130015A967 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
